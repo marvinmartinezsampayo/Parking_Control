@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Parking_Control_Web.0p90qay14u.bundle.scp.css"
     },
     {
+      "Id": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\CSS\\Plantilla_Moster.css",
+      "PackagePath": "staticwebassets\\Personalizada\\CSS\\Plantilla_Moster.css"
+    },
+    {
       "Id": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\Plantilla_Moster.js",
       "PackagePath": "staticwebassets\\Personalizada\\Plantilla_Moster.js"
     },
@@ -3599,6 +3603,10 @@
     {
       "Id": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\monster\\src\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js",
       "PackagePath": "staticwebassets\\monster\\src\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\monster\\src\\assets\\libs\\apexcharts\\dist\\apexcharts_2.js",
+      "PackagePath": "staticwebassets\\monster\\src\\assets\\libs\\apexcharts\\dist\\apexcharts_2.js"
     },
     {
       "Id": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\monster\\src\\assets\\libs\\apexcharts\\dist\\locales\\ca.json",

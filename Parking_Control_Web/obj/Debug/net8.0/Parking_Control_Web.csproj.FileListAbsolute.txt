@@ -244,3 +244,4 @@ D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Parking_Control_Web\obj\Debug\net8.0\Parking_Control_Web.pdb
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Parking_Control_Web\obj\Debug\net8.0\Parking_Control_Web.genruntimeconfig.cache
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Parking_Control_Web\obj\Debug\net8.0\ref\Parking_Control_Web.dll
+D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Parking_Control_Web\obj\Debug\net8.0\Parking_Control_Web.sourcelink.json

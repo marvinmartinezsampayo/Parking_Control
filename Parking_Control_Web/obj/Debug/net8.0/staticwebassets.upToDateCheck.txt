@@ -896,6 +896,7 @@ wwwroot\monster\src\assets\libs\apexcharts\dist\apexcharts.css
 wwwroot\monster\src\assets\libs\apexcharts\dist\apexcharts.esm.js
 wwwroot\monster\src\assets\libs\apexcharts\dist\apexcharts.js
 wwwroot\monster\src\assets\libs\apexcharts\dist\apexcharts.min.js
+wwwroot\monster\src\assets\libs\apexcharts\dist\apexcharts_2.js
 wwwroot\monster\src\assets\libs\apexcharts\dist\locales\ca.json
 wwwroot\monster\src\assets\libs\apexcharts\dist\locales\cs.json
 wwwroot\monster\src\assets\libs\apexcharts\dist\locales\de.json
@@ -7689,4 +7690,5 @@ wwwroot\monster\src\overlay\widgets-apps.html
 wwwroot\monster\src\overlay\widgets-charts.html
 wwwroot\monster\src\overlay\widgets-data.html
 wwwroot\monster\src\overlay\widgets-feeds.html
+wwwroot\Personalizada\CSS\Plantilla_Moster.css
 wwwroot\Personalizada\Plantilla_Moster.js

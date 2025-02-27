@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parking_Control_Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+097b4456c89317ff2ed6f0f4808f91a52305cc67")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parking_Control_Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parking_Control_Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

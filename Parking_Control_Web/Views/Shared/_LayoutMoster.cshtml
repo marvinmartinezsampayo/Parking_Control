@@ -10,12 +10,13 @@
     @* <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, monster admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, ">*@
     <meta name="description" content="PARQUIN - Software que automatiza entradas, salidas y pagos en estacionamientos."> 
     <meta name="robots" content="noindex,nofollow">
-    <title>PARQUIN</title>
+    <title>Parkinc Control</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="~/monster/src/assets/images/favicon.png">
     <!-- Custom CSS -->
     <link href="~/monster/dist/css/style.min.css" rel="stylesheet">
-
+    <link href="~/personalizada/css/plantilla_moster.css" rel="stylesheet" />
+    @await RenderSectionAsync("Styles", required: false)
 </head>
 
 <body>
@@ -1154,8 +1155,7 @@
     <!-- Bootstrap tether Core JavaScript -->
     <script src="~/monster/src/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- apps -->
-    <script src="~/monster/dist/js/app.min.js"></script>
-    <script src="~/monster/dist/js/app.min.js"></script>
+    <script src="~/monster/dist/js/app.min.js"></script>   
 
     <script src="~/monster/dist/js/app.init.horizontal.js"></script>
     <script src="~/monster/dist/js/app-style-switcher.horizontal.js"></script>
@@ -1169,7 +1169,8 @@
     <!--Custom JavaScript -->
     <script src="~/monster/dist/js/feather.min.js"></script>
     <script src="~/monster/dist/js/custom.min.js"></script>
-    <script src="~/personalizada/plantilla_moster.js"></script>    
+    <script src="~/personalizada/plantilla_moster.js"></script> 
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>

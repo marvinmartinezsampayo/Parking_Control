@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\wwwroot\\personalizada\\plantilla_moster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\wwwroot\\personalizada\\plantilla_moster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\views\\shared\\_layoutmoster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\views\\shared\\_layoutmoster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\wwwroot\\personalizada\\css\\plantilla_moster.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\wwwroot\\personalizada\\css\\plantilla_moster.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\areas\\gestion\\controllers\\controlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\areas\\gestion\\controllers\\controlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|d:\\1-proyectos\\3. proyectos personales\\4-control parquedero\\parking_control_web\\parking_control_web\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,36 +70,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutMoster.cshtml",
-              "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
-              "RelativeDocumentMoniker": "Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
-              "ToolTip": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
-              "RelativeToolTip": "Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T21:37:00.491Z",
+              "DocumentIndex": 1,
+              "Title": "Plantilla_Moster.js",
+              "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\Plantilla_Moster.js",
+              "RelativeDocumentMoniker": "Parking_Control_Web\\wwwroot\\Personalizada\\Plantilla_Moster.js",
+              "ToolTip": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\Plantilla_Moster.js",
+              "RelativeToolTip": "Parking_Control_Web\\wwwroot\\Personalizada\\Plantilla_Moster.js",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-27T22:45:56.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Plantilla_Moster.css",
+              "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\CSS\\Plantilla_Moster.css",
+              "RelativeDocumentMoniker": "Parking_Control_Web\\wwwroot\\Personalizada\\CSS\\Plantilla_Moster.css",
+              "ToolTip": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\Personalizada\\CSS\\Plantilla_Moster.css",
+              "RelativeToolTip": "Parking_Control_Web\\wwwroot\\Personalizada\\CSS\\Plantilla_Moster.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-27T22:43:32.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutMoster.cshtml",
+              "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
+              "RelativeDocumentMoniker": "Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
+              "ToolTip": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
+              "RelativeToolTip": "Parking_Control_Web\\Views\\Shared\\_LayoutMoster.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T19:47:30.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
               "ToolTip": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
               "RelativeToolTip": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T21:35:07.591Z"
+              "WhenOpened": "2025-02-25T21:35:07.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ControlController.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
@@ -103,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Gestion_Login.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Implementacion\\Gestion_Login.cs",
               "RelativeDocumentMoniker": "Negocio\\Implementacion\\Gestion_Login.cs",
@@ -115,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Controllers\\LoginController.cs",
@@ -127,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Program.cs",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Program.cs",
@@ -139,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Views\\Login\\Index.cshtml",
@@ -151,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Controllers\\HomeController.cs",
@@ -163,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "sidebarmenu.js",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\wwwroot\\monster\\dist\\js\\sidebarmenu.js",
               "RelativeDocumentMoniker": "Parking_Control_Web\\wwwroot\\monster\\dist\\js\\sidebarmenu.js",
@@ -175,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ContextoGeneral.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Contexto\\ContextoGeneral.cs",
               "RelativeDocumentMoniker": "Datos\\Contexto\\ContextoGeneral.cs",
@@ -187,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Views\\Home\\Index.cshtml",
@@ -199,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ContextoLocal.cs",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Contexto\\ContextoLocal.cs",
               "RelativeDocumentMoniker": "Datos\\Contexto\\ContextoLocal.cs",
@@ -211,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Parking_Control_Web.csproj",
               "DocumentMoniker": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Parking_Control_Web.csproj",
               "RelativeDocumentMoniker": "Parking_Control_Web\\Parking_Control_Web.csproj",

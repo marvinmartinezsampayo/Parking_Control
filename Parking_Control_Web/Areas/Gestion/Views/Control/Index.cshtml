@@ -2,6 +2,185 @@
     Layout = "~/Views/Shared/_LayoutMoster.cshtml";
 }
 
+@section Styles {
+    <!-- Custom CSS -->
+    <link href="~/monster/src/assets/libs/apexcharts/dist/apexcharts.css" rel="stylesheet" />
+    <link href="~/monster/src/assets/extra-libs/css-chart/css-chart.css" rel="stylesheet" />
+}
+
+<!-- Row -->
+<div class="row">
+    <!-- Column -->
+    <div class="col-lg-12 oculto">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-md-flex align-items-center">
+                    <h4 class="card-title">Total Revenue</h4>
+                    <div class="ms-auto">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6 class="text-muted"><i class="fa fa-circle me-1 text-success"></i>2016</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <h6 class="text-muted"><i class="fa fa-circle me-1 text-info"></i>2020</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="total-revenue"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Column -->
+    <div class="col-lg-12">
+        <!-- Row -->
+
+        <div class="row">
+            <!-- Column -->
+            <div class="col-sm-3">
+                <div class="card card-body bg-info">
+                    <!-- Row -->
+                    <div class="row pt-2 pb-2">
+                        <!-- Column -->
+                        <div class="col pr-0">
+                            <h1 class="fw-light text-white">352</h1>
+                            <h6 class="text-white">Bicicletas</h6>
+                        </div>
+                        <!-- Column -->
+                        <div class="col text-end align-self-center">
+                            <div data-label="40%" class="css-bar mb-0 css-bar-warning css-bar-40">
+                                <i class="mdi mdi-bike text-dark fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Column -->
+            <div class="col-sm-3">
+                <div class="card card-body bg-primary ">
+                    <!-- Row -->
+                    <div class="row pt-2 pb-2">
+                        <!-- Column -->
+                        <div class="col pr-0">
+                            <h1 class="fw-light text-white">248</h1>
+                            <h6 class="text-white">Motocicletas</h6>
+                        </div>
+                        <!-- Column -->
+                        <div class="col text-end align-self-center">
+                            <div data-label="30%" class="css-bar mb-0 css-bar-danger css-bar-20">
+                                <i class="mdi mdi-motorbike text-dark fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+            <!-- Column -->
+            <div class="col-sm-3">
+                <div class="card card-body bg-success">
+                    <!-- Row -->
+                    <div class="row pt-2 pb-2">
+                        <!-- Column -->
+                        <div class="col pr-0">
+                            <h1 class="fw-light text-white">86</h1>
+                            <h6 class="text-white">Automovil</h6>
+                        </div>
+                        <!-- Column -->
+                        <div class="col text-end align-self-center">
+                            <div data-label="20%" class="css-bar mb-0 css-bar-primary css-bar-20">
+                                <i class="mdi mdi-car text-dark fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column -->
+            <div class="col-sm-3">
+                <div class="card card-body bg-warning">
+                    <!-- Row -->
+                    <div class="row pt-2 pb-2">
+                        <!-- Column -->
+                        <div class="col pr-0">
+                            <h1 class="fw-light text-white">159</h1>
+                            <h6 class="text-white">Camiones</h6>
+                        </div>
+                        <!-- Column -->
+                        <div class="col text-end align-self-center">
+                            <div data-label="95%" class="css-bar mb-0 css-bar-info css-bar-60">
+                                <i class="mdi mdi-truck text-dark fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Row -->
+<!-- Row -->
+<div class="row oculto">
+    <div class="col-lg-6 d-flex align-items-stretch">
+        <div class="card w-100">
+            <div class="card-body">
+                <div class="d-md-flex align-items-center no-block">
+                    <h4 class="card-title">Sales of the Month</h4>
+                    <div class="ms-auto">
+                        <select class="form-select">
+                            <option selected>January</option>
+                            <option value="1">February</option>
+                            <option value="2">March</option>
+                            <option value="3">April</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Row -->
+                <div class="row mt-4">
+                    <div class="col-md-7">
+                        <div id="sales-of-the-month" class="m-auto"></div>
+                        <!-- <div class="round-overlap sales"><i class="mdi mdi-cart"></i></div> -->
+                    </div>
+                    <div class="col-md-5 align-self-center">
+                        <h1 class="mb-0">65<small>%</small></h1>
+                        <h6 class="text-muted">160 Sales January</h6>
+                        <ul class="list-icons mt-4 list-style-none">
+                            <li class="my-1 py-1"><i class="fa fa-circle text-purple ps-2"></i> Organic Sales</li>
+                            <li class="my-1 py-1"><i class="fa fa-circle text-success ps-2"></i> Search Engine</li>
+                            <li class="my-1 py-1"><i class="fa fa-circle text-info ps-2"></i> Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Row -->
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 d-flex align-items-stretch">
+        <div class="card w-100">
+            <div class="card-body">
+                <div class="d-md-flex align-items-center">
+                    <h4 class="card-title">Income of the Year</h4>
+                    <div class="ms-auto">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6 class="text-muted"><i class="fa fa-circle me-1 text-success"></i>Net</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <h6 class="text-muted"><i class="fa fa-circle me-1 text-info"></i>Growth</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="income-of-the-year"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Row -->
+
+
 
 <!-- -------------------------------------------------------------- -->
 <!-- Start Page Content -->
@@ -990,3 +1169,11 @@
 <!-- -------------------------------------------------------------- -->
 <!-- End PAge Content -->
 <!-- -------------------------------------------------------------- -->
+@section Scripts {
+    <!--This page JavaScript -->
+   @*  <script src="~/monster/src/assets/libs/apexcharts/dist/apexcharts_2.js"></script> *@
+    <script src="~/monster/src/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="~/monster/dist/js/pages/dashboards/dashboard5.js"></script>
+}
+
+
