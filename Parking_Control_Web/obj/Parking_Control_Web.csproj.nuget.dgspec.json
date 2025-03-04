@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Parking_Control_Web.csproj": {}
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Parking_Control_Web.csproj": {}
   },
   "projects": {
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj": {
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj",
         "projectName": "Comun",
-        "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj",
-        "packagesPath": "C:\\Users\\marvin.martinez\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\obj\\",
+        "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marvin.martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,8 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/OmmvbtntTWwKkrYjvzXAYiQvzdxID2CN8qUaSuNlkdkGPkpBmI/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -91,24 +90,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj": {
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj",
-        "packagesPath": "C:\\Users\\marvin.martinez\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\obj\\",
+        "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marvin.martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -118,15 +117,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/OmmvbtntTWwKkrYjvzXAYiQvzdxID2CN8qUaSuNlkdkGPkpBmI/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
               }
             }
           }
@@ -186,24 +184,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Negocio.csproj",
-        "packagesPath": "C:\\Users\\marvin.martinez\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\obj\\",
+        "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marvin.martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -213,21 +211,20 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/OmmvbtntTWwKkrYjvzXAYiQvzdxID2CN8qUaSuNlkdkGPkpBmI/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
               },
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj"
               },
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj"
               }
             }
           }
@@ -287,24 +284,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Parking_Control_Web.csproj": {
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Parking_Control_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Parking_Control_Web.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Parking_Control_Web.csproj",
         "projectName": "Parking_Control_Web",
-        "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\Parking_Control_Web.csproj",
-        "packagesPath": "C:\\Users\\marvin.martinez\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Parking_Control_Web\\obj\\",
+        "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Parking_Control_Web.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marvin.martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -314,21 +311,20 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/OmmvbtntTWwKkrYjvzXAYiQvzdxID2CN8qUaSuNlkdkGPkpBmI/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
               },
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Negocio.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Negocio\\Negocio.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj"
               },
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj"
               }
             }
           }
@@ -391,24 +387,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj": {
+    "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\Servicios.csproj",
-        "packagesPath": "C:\\Users\\marvin.martinez\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Servicios\\obj\\",
+        "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj",
+        "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\marvin.martinez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -418,18 +414,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/OmmvbtntTWwKkrYjvzXAYiQvzdxID2CN8qUaSuNlkdkGPkpBmI/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Comun\\Comun.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
               },
-              "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj": {
-                "projectPath": "D:\\1-Proyectos\\3. Proyectos Personales\\4-Control Parquedero\\Parking_Control_Web\\Datos\\Datos.csproj"
+              "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj"
               }
             }
           }
@@ -489,7 +484,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
