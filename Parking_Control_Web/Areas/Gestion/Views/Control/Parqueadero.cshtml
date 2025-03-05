@@ -1,0 +1,97 @@
+﻿@model Comun.DTO.Gestion.Parametros_Add_Espacio_Parqueadero_Dto
+@{
+    Layout = "~/Views/Shared/_LayoutMoster.cshtml";
+}
+
+@section Styles {
+        @* <!-- Custom CSS -->
+        <link href="~/monster/src/assets/libs/apexcharts/dist/apexcharts.css" rel="stylesheet" />
+        <link href="~/monster/src/assets/extra-libs/css-chart/css-chart.css" rel="stylesheet" /> *@
+}
+
+
+<form asp-area="Gestion" asp-controller="Control" asp-action="AgregarEspacioParqueadero" method="post" class="needs-validation" novalidate>
+    
+    <div class="row">
+        <div class="col-md-4">
+            <label for="validationCustom01">Numero del Espacio</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="A1" asp-for="NUMERO_ESPACIO" required>
+            <div class="invalid-feedback"> Campo requerido </div>
+        </div>
+
+         <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Tipo de Vehículo</label>
+            <select class="form-select is-invalid" id="validationServer02" aria-describedby="validationServer02Feedback" required>
+                <option value=""> - - - Opciones - - -</option>
+                <option value="1">SI</option>
+                <option value="0">NO</option>
+            </select>
+            <div id="validationServer02Feedback" class="invalid-feedback"> Seleccione una opción. </div>
+         </div>
+
+        <div class="col-md-4">
+            <label for="validationServer03" class="form-label">Estado</label>
+            <select class="form-select is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                <option value=""> - - - Opciones - - -</option>
+                <option value="1">SI</option>
+                <option value="0">NO</option>
+            </select>
+            <div id="validationServer03Feedback" class="invalid-feedback"> Seleccione una opción. </div>
+        </div>
+      
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <label for="validationCustom04">Nivel Parqueadero</label>
+            <input type="number" class="form-control" id="validationCustom04" placeholder="1" asp-for="NIVEL" required>
+            <div class="invalid-feedback"> Campo requerido </div>
+        </div>
+
+        <div class="col-md-4">
+            <label for="validationCustom05">Sección Parqueadero</label>
+            <input type="text" class="form-control" id="validationCustom05" placeholder="1" asp-for="SECCION">            
+        </div>
+
+        <div class="col-md-4">
+            <label for="validationServer06" class="form-label">Habilitado</label>
+            <select class="form-select is-invalid" id="validationServer06" aria-describedby="validationServer06Feedback" required>
+                <option value=""> - - - Opciones - - -</option>
+                <option value="1">SI</option>
+                <option value="0">NO</option>
+            </select>
+            <div id="validationServer03Feedback" class="invalid-feedback"> Seleccione una opción. </div>
+        </div>
+
+    </div>
+   
+ 
+ 
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+
+
+@section Scripts {
+   @*  <partial name="_ValidationScriptsPartial" /> *@
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+}

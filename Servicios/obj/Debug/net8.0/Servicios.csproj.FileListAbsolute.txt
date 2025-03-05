@@ -17,3 +17,23 @@ D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Servicios\obj\Debug\net8.0\Servicios.pdb
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Servicios\obj\Debug\net8.0\Servicios.genruntimeconfig.cache
 D:\1-Proyectos\3. Proyectos Personales\4-Control Parquedero\Parking_Control_Web\Servicios\obj\Debug\net8.0\ref\Servicios.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Servicios.deps.json
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Servicios.runtimeconfig.json
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Servicios.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Servicios.pdb
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Comun.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Datos.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Comun.pdb
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\bin\Debug\net8.0\Datos.pdb
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.csproj.AssemblyReference.cache
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.AssemblyInfoInputs.cache
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.AssemblyInfo.cs
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.sourcelink.json
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.csproj.Up2Date
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\refint\Servicios.dll
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.pdb
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\Servicios.genruntimeconfig.cache
+C:\Users\julie\OneDrive\Escritorio\0-MARVIN\Parking_Control\Parking_Control\Servicios\obj\Debug\net8.0\ref\Servicios.dll

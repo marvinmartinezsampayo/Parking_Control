@@ -2469,11 +2469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
+      "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Negocio.csproj",
       "packagesPath": "C:\\Users\\julie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Negocio\\obj\\",
+      "outputPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2495,14 +2495,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
-              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
+            "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj": {
+              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\Comun.csproj"
             },
-            "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj": {
-              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj"
+            "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Datos.csproj"
             },
-            "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj": {
-              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj"
+            "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj": {
+              "projectPath": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Servicios\\Servicios.csproj"
             }
           }
         }

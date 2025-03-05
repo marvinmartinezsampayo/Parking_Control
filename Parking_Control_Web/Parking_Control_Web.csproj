@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Seguridad\**" />
+    <Content Remove="Areas\Seguridad\**" />
+    <EmbeddedResource Remove="Areas\Seguridad\**" />
+    <None Remove="Areas\Seguridad\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Areas\Gestion\Data\" />
     <Folder Include="Areas\Gestion\Models\" />
-    <Folder Include="Areas\Seguridad\Controllers\" />
-    <Folder Include="Areas\Seguridad\Data\" />
-    <Folder Include="Areas\Seguridad\Models\" />
-    <Folder Include="Areas\Seguridad\Views\" />
   </ItemGroup>
 
   <ItemGroup>
