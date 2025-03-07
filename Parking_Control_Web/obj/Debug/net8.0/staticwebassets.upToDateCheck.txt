@@ -7691,4 +7691,8 @@ wwwroot\monster\src\overlay\widgets-charts.html
 wwwroot\monster\src\overlay\widgets-data.html
 wwwroot\monster\src\overlay\widgets-feeds.html
 wwwroot\Personalizada\CSS\Plantilla_Moster.css
+wwwroot\Personalizada\Imagenes\bicicleta.png
+wwwroot\Personalizada\Imagenes\carro-deportivo.png
+wwwroot\Personalizada\Imagenes\construccion.png
+wwwroot\Personalizada\Imagenes\motocicleta.png
 wwwroot\Personalizada\Plantilla_Moster.js

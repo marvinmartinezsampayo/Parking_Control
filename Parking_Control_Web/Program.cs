@@ -1,4 +1,5 @@
 using Datos.Contexto;
+using Datos.Contrato.Gestion;
 using Datos.Contratos.Login;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -41,6 +42,7 @@ builder.Services.AddDbContext<ContextoLocal>(options =>
 
 // Seguridad
 builder.Services.AddScoped<IGestionUsuario, Gestion_Login>();
+builder.Services.AddScoped<IBLConsultar_Detalle_Master, Gestion_Detalle_Master>();
 
 
 

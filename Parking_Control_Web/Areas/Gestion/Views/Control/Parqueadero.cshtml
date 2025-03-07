@@ -9,8 +9,70 @@
         <link href="~/monster/src/assets/extra-libs/css-chart/css-chart.css" rel="stylesheet" /> *@
 }
 
+<div class="row">
+    <div class="col-12 card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-10">
+                    <h4 class="card-title">Gestión de Puestos</h4>
+                    <h6 class="card-subtitle lh-base">En esta sección el administrador de la aplicación puede crear, leer, actualizar y eliminar los puestos que conforman su parqueadero. </h6>
+                </div>
+                <div class="col-2 justify-content-end align-self-center d-none d-md-flex">
+                    <button class="btn btn-success d-flex" data-bs-toggle="modal" data-bs-target="#success-header-modal"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus fill-white feather-sm"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg> Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table customize-table table-hover mb-0 v-middle ">
+                <thead class="table-light">
+                    <tr>
+                        <th class="text-center">Numero</th>
+                        <th class="text-center">Tipo Vehiculo</th>
+                        <th class="text-center">Nivel</th>
+                        <th class="text-center">Sección</th>
+                        <th class="text-center">Estado</th>
+                        <th class="text-center">Habilitado</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center">A1</td>
+                        <td class="text-center">
+                            <div class="d-flex align-items-center">
+                                <img src="~/personalizada/imagenes/bicicleta.png" class="rounded-circle" width="40" />                               
+                                <span class="ms-3 fw-normal">Bicicleta</span>
+                            </div>
+                        </td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">A</td>
+                        <td class="text-center"><span class="badge bg-light-success text-success fw-normal">Disponible</span></td>
+                        <td class="text-center"><span class="badge bg-light-success text-success fw-normal">SI</span></td>
+                        <td class="text-center">
+                            <div class="dropdown dropstart">
+                                <a href="#" class="link" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i data-feather="more-horizontal" class="feather-sm"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Editar</a></li>
+                                    <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-<form asp-area="Gestion" asp-controller="Control" asp-action="AgregarEspacioParqueadero" method="post" class="needs-validation" novalidate>
+</div>
+
+<!-- hoverable rows -->
+
+
+
+@* <form asp-area="Gestion" asp-controller="Control" asp-action="AgregarEspacioParqueadero" method="post" class="needs-validation" novalidate>
     
     <div class="row">
         <div class="col-md-4">
@@ -70,28 +132,131 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 
+ *@
+
+<!-- success Header Modal -->
+<div id="success-header-modal" class="modal fade" tabindex="-1" aria-labelledby="success-header-modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header modal-colored-header bg-success text-white">
+                <h4 class="modal-title" id="success-header-modalLabel">
+                    Agregar Puesto de Parqueadero
+                </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form area="Gestion" controller="Control" action="AgregarEspacioParqueadero" method="post" class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Numero</label>
+                            <input type="text" id="NUMERO_ESPACIO" name="NUMERO_ESPACIO" class="form-control" placeholder="Ingrese el número de espacio" required>                           
+                            <div class="invalid-feedback">Por favor, ingrese un número de espacio válido.</div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="listaTipoVehiculo" class="form-label">Tipo de Vehículo</label>                            
+                            @Html.DropDownList("ID_TIPO_VEHICULO", null, String.Format("Seleccione ---"), htmlAttributes: new { @class = "form-control", style = "width: 100%;", @id = "ID_TIPO_VEHICULO", required = "true" })
+                            <div class="invalid-feedback">Debe ingresar un ID de tipo de vehículo válido.</div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="ID_ESTADO" class="form-label">Estado</label>
+                            @Html.DropDownList("ID_ESTADO", null, String.Format("Seleccione ---"), htmlAttributes: new { @class = "form-control", style = "width: 100%;", @id = "ID_ESTADO", required = "true" })
+                            @* <input type="number"  id="ID_ESTADO" name="ID_ESTADO" class="form-control" placeholder="Ingrese el estado" required /> *@
+                            <div class="invalid-feedback">Debe ingresar un estado válido.</div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="NIVEL" class="form-label">Nivel</label>
+                            <input type="number"  id="NIVEL" name="NIVEL" class="form-control" placeholder="Ingrese el nivel" required />
+                            <div class="invalid-feedback">Debe ingresar un nivel válido.</div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="SECCION" class="form-label">Sección</label>
+                            <input type="text" id="SECCION" name="SECCION" class="form-control" placeholder="Ingrese la sección" required />
+                            <div class="invalid-feedback">Debe ingresar una sección válida.</div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <label asp-for="HABILITADO" class="form-label">Habitación</label>
+                            <select id="HABILITADO" name="HABILITADO" class="form-select" required>
+                                <option value="">Seleccione una opción</option>
+                                <option value="1">Sí</option>
+                                <option value="0">No</option>
+                            </select>
+                            <div class="invalid-feedback">Debe seleccionar una opción válida.</div>
+                        </div>
+                    </div> 
 
 
+
+                    <hr class="p-2">
+                    @* <button class="btn btn-info mt-3 rounded-pill px-4" type="submit">Submit form</button> *@
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal"> Close </button>
+                        @* <button class="btn btn-info mt-3 rounded-pill px-4" type="submit">Submit form</button> 
+                        <button type="submit" class="btn btn-light-success text-success font-weight-medium">Save changes</button>*@
+                        <button type="submit" class="btn btn-light-success text-success font-weight-medium" >Save changes</button>
+
+                    </div>
+               </form> 
+            </div>
+            
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 @section Scripts {
-   @*  <partial name="_ValidationScriptsPartial" /> *@
     <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function() {
+        (function () {
             'use strict';
-            window.addEventListener('load', function() {
-                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-                // Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
+            var forms = document.querySelectorAll('.needs-validation');
+
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault(); // SOLO evita el envío si hay errores
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
         })();
-    </script>
+    </script> 
+
+    @*   <script>
+        (function () {
+            'use strict';
+            var forms = document.querySelectorAll('.needs-validation');
+
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    var isValid = true;
+
+                    // Validar todos los selects dentro del formulario
+                    var selects = form.querySelectorAll('select');
+
+                    selects.forEach(function (select) {
+                        if (!select.value || select.value.trim() === '') {
+                            select.classList.add('is-invalid');
+                            isValid = false;
+                        } else {
+                            select.classList.remove('is-invalid');
+                        }
+                    });
+
+                    // Si algún campo es inválido, detener el envío
+                    if (!isValid || !form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>*@
+
 }
