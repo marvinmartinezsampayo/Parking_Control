@@ -43,7 +43,7 @@ builder.Services.AddDbContext<ContextoLocal>(options =>
 // Seguridad
 builder.Services.AddScoped<IGestionUsuario, Gestion_Login>();
 builder.Services.AddScoped<IBLConsultar_Detalle_Master, Gestion_Detalle_Master>();
-
+builder.Services.AddScoped<IGestion_Espacio_Parqueadero, Gestion_Espacio_Parqueadero>();
 
 
 var app = builder.Build();

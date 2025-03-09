@@ -7695,4 +7695,5 @@ wwwroot\Personalizada\Imagenes\bicicleta.png
 wwwroot\Personalizada\Imagenes\carro-deportivo.png
 wwwroot\Personalizada\Imagenes\construccion.png
 wwwroot\Personalizada\Imagenes\motocicleta.png
+wwwroot\Personalizada\JS\Parqueadero.js
 wwwroot\Personalizada\Plantilla_Moster.js

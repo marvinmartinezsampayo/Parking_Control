@@ -17,6 +17,7 @@ namespace Datos.Contexto
         public DbSet<DETALLE_MASTER> DETALLE_MASTER { get; set; }
         public DbSet<USUARIO> USUARIO { get; set; }
         public DbSet<ROLES_X_USUARIO> ROLES_X_USUARIO { get; set; }
+        public DbSet<ESPACIO_PARQUEADERO> ESPACIO_PARQUEADERO { get; set; }
         
     }
 }

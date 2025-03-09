@@ -1,6 +1,11 @@
-﻿@model Comun.DTO.Gestion.Parametros_Add_Espacio_Parqueadero_Dto
+﻿@using Newtonsoft.Json;
+@using Comun.DTO.Gestion
+@model Comun.DTO.Gestion.Parametros_Add_Espacio_Parqueadero_Dto
 @{
     Layout = "~/Views/Shared/_LayoutMoster.cshtml";
+}
+@{
+    var listaEspaciosJson = ViewData["List_Espacios"] as string;
 }
 
 @section Styles {
@@ -35,8 +40,8 @@
                         <th class="text-center">Acciones</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody id="bodyTablaEspacio" >
+                   @*  <tr>
                         <td class="text-center">A1</td>
                         <td class="text-center">
                             <div class="d-flex align-items-center">
@@ -59,8 +64,7 @@
                                 </ul>
                             </div>
                         </td>
-                    </tr>
-                    
+                    </tr>  *@                   
                 </tbody>
             </table>
         </div>
@@ -72,67 +76,7 @@
 
 
 
-@* <form asp-area="Gestion" asp-controller="Control" asp-action="AgregarEspacioParqueadero" method="post" class="needs-validation" novalidate>
-    
-    <div class="row">
-        <div class="col-md-4">
-            <label for="validationCustom01">Numero del Espacio</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="A1" asp-for="NUMERO_ESPACIO" required>
-            <div class="invalid-feedback"> Campo requerido </div>
-        </div>
 
-         <div class="col-md-4">
-            <label for="validationServer02" class="form-label">Tipo de Vehículo</label>
-            <select class="form-select is-invalid" id="validationServer02" aria-describedby="validationServer02Feedback" required>
-                <option value=""> - - - Opciones - - -</option>
-                <option value="1">SI</option>
-                <option value="0">NO</option>
-            </select>
-            <div id="validationServer02Feedback" class="invalid-feedback"> Seleccione una opción. </div>
-         </div>
-
-        <div class="col-md-4">
-            <label for="validationServer03" class="form-label">Estado</label>
-            <select class="form-select is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
-                <option value=""> - - - Opciones - - -</option>
-                <option value="1">SI</option>
-                <option value="0">NO</option>
-            </select>
-            <div id="validationServer03Feedback" class="invalid-feedback"> Seleccione una opción. </div>
-        </div>
-      
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <label for="validationCustom04">Nivel Parqueadero</label>
-            <input type="number" class="form-control" id="validationCustom04" placeholder="1" asp-for="NIVEL" required>
-            <div class="invalid-feedback"> Campo requerido </div>
-        </div>
-
-        <div class="col-md-4">
-            <label for="validationCustom05">Sección Parqueadero</label>
-            <input type="text" class="form-control" id="validationCustom05" placeholder="1" asp-for="SECCION">            
-        </div>
-
-        <div class="col-md-4">
-            <label for="validationServer06" class="form-label">Habilitado</label>
-            <select class="form-select is-invalid" id="validationServer06" aria-describedby="validationServer06Feedback" required>
-                <option value=""> - - - Opciones - - -</option>
-                <option value="1">SI</option>
-                <option value="0">NO</option>
-            </select>
-            <div id="validationServer03Feedback" class="invalid-feedback"> Seleccione una opción. </div>
-        </div>
-
-    </div>
-   
- 
- 
-    <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
-
- *@
 
 <!-- success Header Modal -->
 <div id="success-header-modal" class="modal fade" tabindex="-1" aria-labelledby="success-header-modalLabel" aria-hidden="true">
@@ -150,20 +94,20 @@
                         <div class="col-md-4 mb-3">
                             <label class="form-label">Numero</label>
                             <input type="text" id="NUMERO_ESPACIO" name="NUMERO_ESPACIO" class="form-control" placeholder="Ingrese el número de espacio" required>                           
-                            <div class="invalid-feedback">Por favor, ingrese un número de espacio válido.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
 
                         <div class="col-md-4 mb-3">
                             <label asp-for="listaTipoVehiculo" class="form-label">Tipo de Vehículo</label>                            
                             @Html.DropDownList("ID_TIPO_VEHICULO", null, String.Format("Seleccione ---"), htmlAttributes: new { @class = "form-control", style = "width: 100%;", @id = "ID_TIPO_VEHICULO", required = "true" })
-                            <div class="invalid-feedback">Debe ingresar un ID de tipo de vehículo válido.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
 
                         <div class="col-md-4 mb-3">
                             <label asp-for="ID_ESTADO" class="form-label">Estado</label>
                             @Html.DropDownList("ID_ESTADO", null, String.Format("Seleccione ---"), htmlAttributes: new { @class = "form-control", style = "width: 100%;", @id = "ID_ESTADO", required = "true" })
                             @* <input type="number"  id="ID_ESTADO" name="ID_ESTADO" class="form-control" placeholder="Ingrese el estado" required /> *@
-                            <div class="invalid-feedback">Debe ingresar un estado válido.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
                     </div>
 
@@ -171,36 +115,30 @@
                         <div class="col-md-4 mb-3">
                             <label asp-for="NIVEL" class="form-label">Nivel</label>
                             <input type="number"  id="NIVEL" name="NIVEL" class="form-control" placeholder="Ingrese el nivel" required />
-                            <div class="invalid-feedback">Debe ingresar un nivel válido.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
 
                         <div class="col-md-4 mb-3">
                             <label asp-for="SECCION" class="form-label">Sección</label>
                             <input type="text" id="SECCION" name="SECCION" class="form-control" placeholder="Ingrese la sección" required />
-                            <div class="invalid-feedback">Debe ingresar una sección válida.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
 
                         <div class="col-md-4 mb-3">
                             <label asp-for="HABILITADO" class="form-label">Habitación</label>
                             <select id="HABILITADO" name="HABILITADO" class="form-select" required>
                                 <option value="">Seleccione una opción</option>
-                                <option value="1">Sí</option>
-                                <option value="0">No</option>
+                                <option value="true">Sí</option>
+                                <option value="false">No</option>
                             </select>
-                            <div class="invalid-feedback">Debe seleccionar una opción válida.</div>
+                            <div class="invalid-feedback">Campo requerido.</div>
                         </div>
                     </div> 
 
-
-
-                    <hr class="p-2">
-                    @* <button class="btn btn-info mt-3 rounded-pill px-4" type="submit">Submit form</button> *@
+                    <hr class="p-2">                    
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-light" data-bs-dismiss="modal"> Close </button>
-                        @* <button class="btn btn-info mt-3 rounded-pill px-4" type="submit">Submit form</button> 
-                        <button type="submit" class="btn btn-light-success text-success font-weight-medium">Save changes</button>*@
-                        <button type="submit" class="btn btn-light-success text-success font-weight-medium" >Save changes</button>
-
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal"> Cerrar </button>                        
+                        <button type="submit" class="btn btn-light-success text-success font-weight-medium" >Guardar</button>
                     </div>
                </form> 
             </div>
@@ -208,7 +146,99 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+
+<!-- Vertically centered modal -->
+<div class="modal fade" id="Modal_Alert" tabindex="-1" aria-labelledby="vertical-center-modal" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div id="Msj_Modal_Content" class="modal-content modal-filled">
+            <div class="modal-body p-4">
+                <div class="text-center text-success">
+                    <i data-feather="check-circle" class="fill-white feather-lg"></i>
+                    <h4 id="Msj_Title" class="mt-2 text-success"></h4>
+                    <p id="Msj_Text" class="mt-3 text-success-50"> </p>
+                    <button type="button" class="btn btn-light my-2" data-bs-dismiss="modal">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div>
+</div>
+
+
+
 @section Scripts {
+    @* <script src="~/personalizada/js/parqueadero.js"></script> *@
+    <script>
+        var mensajeExito = '@TempData["SuccessMessage"]';
+        var mensajeError = '@TempData["ErrorMessage"]';
+      
+        var AlertContent = document.getElementById("Msj_Modal_Content");
+        var AlertTitulo = document.getElementById("Msj_Title");
+        var AlertText = document.getElementById("Msj_Text");
+
+        if (mensajeExito) {
+
+            AlertContent.classList.add("bg-light-success", "text-success");
+            AlertTitulo.innerHTML = "¡Bien hecho!";
+            AlertText.innerHTML = mensajeExito;
+            $("#Modal_Alert").modal("show");
+        }
+
+        if (mensajeError) {
+            AlertContent.classList.add("bg-light-warning", "text-warning");
+            AlertTitulo.innerHTML = "¡Precaución, se generó un error!";
+            AlertText.innerHTML = mensajeError;
+            $("#Modal_Alert").modal("show");
+        }
+
+        var html=``;
+        if ('@listaEspaciosJson') {            
+            var listaEspacios = JSON.parse('@Html.Raw(listaEspaciosJson)');
+                       
+            listaEspacios.forEach(function(espacio) {
+                 var urlImg = "/personalizada/imagenes/bicicleta.png";
+                 html += `<tr>
+                            <td class="text-center">${espacio.NUMERO_ESPACIO}</td>
+                            <td class="text-center">
+                                <div class="d-flex align-items-center">
+                                    <img src="${urlImg}" class="rounded-circle" width="40" />
+                                    <span class="ms-3 fw-normal">${espacio.TIPO_VEHICULO}</span>
+                                </div>
+                            </td>
+                            <td class="text-center">${espacio.NIVEL}</td>
+                            <td class="text-center">${espacio.SECCION}</td>
+                            <td class="text-center"><span class="badge bg-light-success text-success fw-normal">${espacio.ESTADO}</span></td>
+                            <td class="text-center">
+                                <span class="badge ${espacio.HABILITADO ? 'bg-light-success text-success' : 'bg-light-danger text-danger'} fw-normal">
+                                ${espacio.HABILITADO ? 'Sí' : 'No'}
+                                </span>
+                            </td>
+                            <td class="text-center">
+                                <div class="dropdown dropstart">
+                                    <a href="#" class="link" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i data-feather="more-horizontal" class="feather-sm"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Editar</a></li>
+                                        <li><a class="dropdown-item" href="#">Eliminar</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>`;
+
+            });
+
+
+
+        };
+
+        document.getElementById("bodyTablaEspacio").innerHTML = html;
+
+
+    </script>
+    
     <script>
         (function () {
             'use strict';
@@ -225,38 +255,4 @@
             });
         })();
     </script> 
-
-    @*   <script>
-        (function () {
-            'use strict';
-            var forms = document.querySelectorAll('.needs-validation');
-
-            Array.prototype.slice.call(forms).forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                    var isValid = true;
-
-                    // Validar todos los selects dentro del formulario
-                    var selects = form.querySelectorAll('select');
-
-                    selects.forEach(function (select) {
-                        if (!select.value || select.value.trim() === '') {
-                            select.classList.add('is-invalid');
-                            isValid = false;
-                        } else {
-                            select.classList.remove('is-invalid');
-                        }
-                    });
-
-                    // Si algún campo es inválido, detener el envío
-                    if (!isValid || !form.checkValidity()) {
-                        event.preventDefault();
-                        event.stopPropagation();
-                    }
-
-                    form.classList.add('was-validated');
-                }, false);
-            });
-        })();
-    </script>*@
-
 }

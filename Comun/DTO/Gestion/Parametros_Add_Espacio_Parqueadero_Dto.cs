@@ -10,14 +10,16 @@ namespace Comun.DTO.Gestion
 {
     public class Parametros_Add_Espacio_Parqueadero_Dto
     {
+        public long? ID_ESPACIO { get; set; }
+
         [Required]
         public string NUMERO_ESPACIO { get; set; }
 
         [Required]
-        public int ID_TIPO_VEHICULO { get; set; }
+        public long ID_TIPO_VEHICULO { get; set; }
 
         [Required]
-        public int ID_ESTADO { get; set; }
+        public long ID_ESTADO { get; set; }
 
         [Required]
         public int NIVEL { get; set; }
@@ -26,6 +28,6 @@ namespace Comun.DTO.Gestion
         public string SECCION { get; set; }
 
         [Required]
-        public int HABILITADO { get; set; }
+        public bool HABILITADO { get; set; }
     }
 }

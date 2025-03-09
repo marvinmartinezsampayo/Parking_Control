@@ -11,44 +11,39 @@
       "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\areas\\gestion\\controllers\\controlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\parking_control_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\comun\\dto\\gestion\\parametros_add_espacio_parqueadero_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|solutionrelative:comun\\dto\\gestion\\parametros_add_espacio_parqueadero_dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C96D9E2-DABE-40DC-ABE6-B9ABE004E8D5}|Negocio\\Negocio.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\negocio\\implementacion\\gestion_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C96D9E2-DABE-40DC-ABE6-B9ABE004E8D5}|Negocio\\Negocio.csproj|solutionrelative:negocio\\implementacion\\gestion_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\comun\\dto\\seguridad\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|solutionrelative:comun\\dto\\seguridad\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\contexto\\contextolocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\contexto\\contextolocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\parking_control_web\\wwwroot\\personalizada\\js\\parqueadero.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\wwwroot\\personalizada\\js\\parqueadero.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\comun\\dto\\generales\\respuesta_consulta_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CC7C09B-B8DD-459B-A4B4-40D46AEF2AC5}|Comun\\Comun.csproj|solutionrelative:comun\\dto\\generales\\respuesta_consulta_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C96D9E2-DABE-40DC-ABE6-B9ABE004E8D5}|Negocio\\Negocio.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\negocio\\implementacion\\gestion_espacio_parqueadero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C96D9E2-DABE-40DC-ABE6-B9ABE004E8D5}|Negocio\\Negocio.csproj|solutionrelative:negocio\\implementacion\\gestion_espacio_parqueadero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\contexto\\contextogeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\contexto\\contextogeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\modelo\\espacio_parqueadero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\modelo\\espacio_parqueadero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\contrato\\gestion\\iblconsultar_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\contrato\\gestion\\iblconsultar_detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\julie\\AppData\\Local\\SourceServer\\f803f567182b705aaded920321b4d8465d5069a8f46b7e5e089a44699840169c\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\modelo\\detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\modelo\\detalle_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\parking_control_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F61C2FF-396C-4279-82BA-B94574D1CE8C}|Parking_Control_Web\\Parking_Control_Web.csproj|solutionrelative:parking_control_web\\areas\\gestion\\views\\control\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\contrato\\login\\igestionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\contrato\\login\\igestionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|c:\\users\\julie\\onedrive\\escritorio\\0-marvin\\parking_control\\parking_control\\datos\\modelo\\roles_x_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD858B4D-AB6D-48F2-9E39-3AA9F1006E7C}|Datos\\Datos.csproj|solutionrelative:datos\\modelo\\roles_x_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,41 +65,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ContextoGeneral.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contexto\\ContextoGeneral.cs",
-              "RelativeDocumentMoniker": "Datos\\Contexto\\ContextoGeneral.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contexto\\ContextoGeneral.cs",
-              "RelativeToolTip": "Datos\\Contexto\\ContextoGeneral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ControlController.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "RelativeToolTip": "Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAIA8wCsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:53:51.474Z",
+              "WhenOpened": "2025-03-07T19:54:53.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gestion_Espacio_Parqueadero.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Implementacion\\Gestion_Espacio_Parqueadero.cs",
+              "RelativeDocumentMoniker": "Negocio\\Implementacion\\Gestion_Espacio_Parqueadero.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Implementacion\\Gestion_Espacio_Parqueadero.cs",
+              "RelativeToolTip": "Negocio\\Implementacion\\Gestion_Espacio_Parqueadero.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwHgAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:58:21.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ESPACIO_PARQUEADERO.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\ESPACIO_PARQUEADERO.cs",
+              "RelativeDocumentMoniker": "Datos\\Modelo\\ESPACIO_PARQUEADERO.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\ESPACIO_PARQUEADERO.cs",
+              "RelativeToolTip": "Datos\\Modelo\\ESPACIO_PARQUEADERO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwCsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:01:19.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Gestion_Detalle_Master.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Implementacion\\Gestion_Detalle_Master.cs",
-              "RelativeDocumentMoniker": "Negocio\\Implementacion\\Gestion_Detalle_Master.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Negocio\\Implementacion\\Gestion_Detalle_Master.cs",
-              "RelativeToolTip": "Negocio\\Implementacion\\Gestion_Detalle_Master.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Seguridad\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Comun\\DTO\\Seguridad\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Seguridad\\LoginDto.cs",
+              "RelativeToolTip": "Comun\\DTO\\Seguridad\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:48:02.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContextoLocal.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contexto\\ContextoLocal.cs",
-              "RelativeDocumentMoniker": "Datos\\Contexto\\ContextoLocal.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contexto\\ContextoLocal.cs",
-              "RelativeToolTip": "Datos\\Contexto\\ContextoLocal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:46:44.618Z",
+              "WhenOpened": "2025-03-07T20:26:23.112Z",
               "EditorCaption": ""
             },
             {
@@ -115,36 +123,9 @@
               "RelativeDocumentMoniker": "Datos\\Modelo\\DETALLE_MASTER.cs",
               "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\DETALLE_MASTER.cs",
               "RelativeToolTip": "Datos\\Modelo\\DETALLE_MASTER.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:46:12.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Respuesta_Consulta_Detalle_Master.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Generales\\Respuesta_Consulta_Detalle_Master.cs",
-              "RelativeDocumentMoniker": "Comun\\DTO\\Generales\\Respuesta_Consulta_Detalle_Master.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Generales\\Respuesta_Consulta_Detalle_Master.cs",
-              "RelativeToolTip": "Comun\\DTO\\Generales\\Respuesta_Consulta_Detalle_Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:42:46.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBLConsultar_Detalle_Master.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contrato\\Gestion\\IBLConsultar_Detalle_Master.cs",
-              "RelativeDocumentMoniker": "Datos\\Contrato\\Gestion\\IBLConsultar_Detalle_Master.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contrato\\Gestion\\IBLConsultar_Detalle_Master.cs",
-              "RelativeToolTip": "Datos\\Contrato\\Gestion\\IBLConsultar_Detalle_Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T02:41:47.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T21:07:15.001Z"
             },
             {
               "$type": "Document",
@@ -154,73 +135,73 @@
               "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Parqueadero.cshtml",
               "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Parqueadero.cshtml",
               "RelativeToolTip": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Parqueadero.cshtml",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAAMMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T23:28:40.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ControlController.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
-              "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
-              "RelativeToolTip": "Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:22:09.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Program.cs",
-              "RelativeDocumentMoniker": "Parking_Control_Web\\Program.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Program.cs",
-              "RelativeToolTip": "Parking_Control_Web\\Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Title": "Parametros_Add_Espacio_Parqueadero_Dto.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Gestion\\Parametros_Add_Espacio_Parqueadero_Dto.cs",
+              "RelativeDocumentMoniker": "Comun\\DTO\\Gestion\\Parametros_Add_Espacio_Parqueadero_Dto.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Comun\\DTO\\Gestion\\Parametros_Add_Espacio_Parqueadero_Dto.cs",
+              "RelativeToolTip": "Comun\\DTO\\Gestion\\Parametros_Add_Espacio_Parqueadero_Dto.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T03:23:13.602Z",
+              "WhenOpened": "2025-03-07T20:26:14.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
-              "RelativeDocumentMoniker": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
-              "RelativeToolTip": "Parking_Control_Web\\Areas\\Gestion\\Views\\Control\\Index.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAGoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T01:42:19.716Z"
+              "Title": "ROLES_X_USUARIO.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\ROLES_X_USUARIO.cs",
+              "RelativeDocumentMoniker": "Datos\\Modelo\\ROLES_X_USUARIO.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\ROLES_X_USUARIO.cs",
+              "RelativeToolTip": "Datos\\Modelo\\ROLES_X_USUARIO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T20:25:59.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IGestionUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contrato\\Login\\IGestionUsuario.cs",
-              "RelativeDocumentMoniker": "Datos\\Contrato\\Login\\IGestionUsuario.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Contrato\\Login\\IGestionUsuario.cs",
-              "RelativeToolTip": "Datos\\Contrato\\Login\\IGestionUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:11:46.388Z"
+              "DocumentIndex": 4,
+              "Title": "Parqueadero.js",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\wwwroot\\Personalizada\\JS\\Parqueadero.js",
+              "RelativeDocumentMoniker": "Parking_Control_Web\\wwwroot\\Personalizada\\JS\\Parqueadero.js",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\wwwroot\\Personalizada\\JS\\Parqueadero.js",
+              "RelativeToolTip": "Parking_Control_Web\\wwwroot\\Personalizada\\JS\\Parqueadero.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-08T21:24:53.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Parking_Control_Web\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Parking_Control_Web\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Parking_Control_Web\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAABCAAAAAAAAAA==",
+              "Title": "USUARIO.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\USUARIO.cs",
+              "RelativeDocumentMoniker": "Datos\\Modelo\\USUARIO.cs",
+              "ToolTip": "C:\\Users\\julie\\OneDrive\\Escritorio\\0-MARVIN\\Parking_Control\\Parking_Control\\Datos\\Modelo\\USUARIO.cs",
+              "RelativeToolTip": "Datos\\Modelo\\USUARIO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T22:10:39.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T20:26:03.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ControlController.cs",
+              "DocumentMoniker": "C:\\Users\\julie\\AppData\\Local\\SourceServer\\f803f567182b705aaded920321b4d8465d5069a8f46b7e5e089a44699840169c\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\f803f567182b705aaded920321b4d8465d5069a8f46b7e5e089a44699840169c\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs",
+              "ToolTip": "C:\\Users\\julie\\AppData\\Local\\SourceServer\\f803f567182b705aaded920321b4d8465d5069a8f46b7e5e089a44699840169c\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\f803f567182b705aaded920321b4d8465d5069a8f46b7e5e089a44699840169c\\Parking_Control_Web\\Areas\\Gestion\\Controllers\\ControlController.cs [Solo lectura]",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAEwC0AAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:49:26.336Z",
+              "EditorCaption": " [Solo lectura]"
             }
           ]
         }
